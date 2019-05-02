@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+}
+.todos{
+    margin-top: 30px;
+}
+i{
+    color: #143ce4;
+}
+.fa-trash,.fa-clock{
+    color: #f00;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 400px;
+    border-radius: 10px;
+}
+th,td{
+    padding: 10px 50px;
+}
+td:hover,td:hover i{
+    background-color: #212798;
+    color: #fff;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1114af;
+    color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}

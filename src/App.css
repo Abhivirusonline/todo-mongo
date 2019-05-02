@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #292ba5;
+    padding: 12px 20px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.AddItem{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    max-width: 750px;
+}
